@@ -1,14 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mikhail Rodionov</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    Hello, world!
-    This is index.html
-    
+<header>
+  <nav>
+    <ul class="ul_flex">
+      <li><a href="#About">About me</a></li>
+      <li><a href="#Contact">Contacts</a></li>
+      <li><a href="#Skills">My skills</a></li>
+      <li><a href="#Sample">Sample code</a></li>
+      <li><a href="#Projects">My projects</a></li>
+      <li><a href="#Education">English level</a></li>
+    </ul>
+  </nav>
+  <p></p>
+<div class="container">
+  <div class="first">
+    <h1>Mikhail Rodionov</h1>
+    <h4>Beginner front-end developer</h4>
+  </div>
+  <div class="second">
+    <img src="img/photo.jpg" alt="Photo of Mikhail Rodionov" width=auto height="300">
+  </div>
+</div>
+</header>
+<main>
+  <a name="About"></a>
+  <h2>About me</h2>
+  <p>
+    I am beginner front-end developer. 
+    I like everything related to programming. 
+    This is my first experience. 
+    And I am sure that everything will be ok.
+  </p>
+  <p></p>
+  <a name="Contact"></a>
+  <h2>Contact</h2>
+  <ul>
+    <li>Phone: +7-965-693-15-29</li>
+    <li>Email: rmntmp@yandex.ru</li>
+  </ul>
+  <p></p>
+  <a name="Skills"></a>
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Git</li>
+    <li>JavaScript</li>
+  </ul>
+  <p></p>
+  <a name="Sample"></a>
+  <h2>Sample</h2>
+  <pre><code>
+    function rentalCarCost(d) {
+      if (d >= 7) {
+          return d * 40 - 50;
+      } else if (d >= 3) {
+          return d * 40 - 20;
+      }
+      return d * 40;
+    }
+  </code>
+</pre>
+<p></p>
+  <a name="Projects"></a>
+  <h2>Projects</h2>
+  <a href="https://aristakiss.github.io/rsschool-cv/">My CV></a>
+  <a name="Education"></a>
+  <h2>Educations and English level</h2>
+  <ul class="list_item">
+    <li>Tula State University</li>
+    <li>English level: B1</li>
+  </ul>
+<p></p>
+</main>
+<footer>
+  <nav>
+      <ul class="ul_flex">
+        <li><a href="https://github.com/aristakiss">My GitHub</a></li>
+        <li><p>2021</p></li>
+        <li><a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" width=auto 
+          height="30" alt="RSSchool"></li>
+      </ul>  
+  </nav> 
+</footer>
 </body>
 </html>

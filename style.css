@@ -1,3 +1,39 @@
-h1 {
-	color: DeepSkyBlue;
+ul {
+	margin: 0;
+	padding: 0;
+  }
+  
+  .ul_flex {
+	display: flex;
+	text-align: center;
+	background: #ccc;
+  }
+  
+  ul li {
+	list-style-type: none;
+	flex-basis: auto;
+	flex-grow: 1;
+  }
+   
+  ul li a {
+	padding: 20px 0;
+	text-decoration: none;
+	color: black;
+	display: block;
+  }
+  
+.container { 
+	display: flex;
+  }
+  .first {
+	flex-grow: 1;
+	text-align: center;
+  }
+  .second {
+	background: #ccc;
+  }
+
+.list_item {
+	display: inline;
 }
+
